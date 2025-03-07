@@ -43,7 +43,10 @@ button.addEventListener('click', () => {
 
             // Add hover effect
             newDiv2.addEventListener('mouseover', () => {
-                newDiv2.style.backgroundColor = 'orange';
+                const r = Math.floor(Math.random() * 256);
+                const g = Math.floor(Math.random() * 256);
+                const b = Math.floor(Math.random() * 256);
+                newDiv2.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
             });
         }
     }
