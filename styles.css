@@ -16,4 +16,9 @@ button {
     font-size: 16px;
     border-radius: 5px;
     margin-top: 20px;
+    flex: auto;
+}
+
+.btn {
+  text-align: center;
 }
